@@ -31,7 +31,7 @@ Face recognition is a classic task in computer vision. In this project, we use t
 ```
 input/  
 └── VGG-Face2/  
-    ├── data/  
+    └── data/  
         ├── vggface2_train/train  
         └── vggface2_test/test
 ```
