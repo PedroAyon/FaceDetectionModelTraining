@@ -32,8 +32,8 @@ Face recognition is a classic task in computer vision. In this project, we use t
 input/  
 └── VGG-Face2/  
     ├── data/  
-    │   ├── vggface2_train/train  
-    │   └── vggface2_test/test
+        ├── vggface2_train/train  
+        └── vggface2_test/test
 ```
 3. Each of `vggface2_train/train` and `vggface2_test/test` contains multiple subfolders named like `n000001`, `n000002`, etc. Each folder contains the images for that identity.
 
