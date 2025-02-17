@@ -98,8 +98,8 @@ This pipeline resizes images to 256×256, center-crops to 224×224, converts to 
 3. Dataset and DataLoaders
 
 ```python
-train_dir = 'input/VGG-Face2/data/vggface2_train'
-test_dir  = 'input/VGG-Face2/data/vggface2_test'
+train_dir = 'input/VGG-Face2/data/vggface2_train/train'
+test_dir  = 'input/VGG-Face2/data/vggface2_test/test'
 
 train_dataset = datasets.ImageFolder(root=train_dir, transform=transform)
 test_dataset  = datasets.ImageFolder(root=test_dir, transform=transform)
